@@ -1,0 +1,51 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 8rem;
+  /* height: calc(100vh - 50%); */
+  flex-direction: column;
+  line-height: 4em;
+}
+
+.home h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.home span {
+  font-size: 2rem;
+}
+
+.home span strong {
+  color: var(--main-color);
+}
+
+
+@media (max-width: 1350px) {
+  .home {
+    gap: 0;
+  }
+
+  .home div {
+    width: 100%;
+    text-align: center;
+    margin: 64px 12px 32px 12px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .home h1 {
+    font-size: 3.5rem;
+  }
+
+  .home span {
+    font-size: 2rem;
+  }
+}
+
+
+
+
