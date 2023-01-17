@@ -13,7 +13,7 @@ const Layout = ({ children }: any) => {
       {
         y: 50,
         autoAlpha: 0,
-        ease: 'power3.out',
+        ease: 'power.out',
       },
       {
         y: 0,
