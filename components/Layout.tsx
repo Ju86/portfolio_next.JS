@@ -19,7 +19,7 @@ const Layout = ({ children }: any) => {
         y: 0,
         autoAlpha: 1,
         duration: 1,
-        ease: 'power3.out',
+        ease: 'power.out',
       }
     )
   }
@@ -30,13 +30,13 @@ const Layout = ({ children }: any) => {
       {
         y: 0,
         autoAlpha: 1,
-        ease: 'power3.out',
+        ease: 'power.out',
       },
       {
         y: -50,
         autoAlpha: 0,
         duration: 0.5,
-        ease: 'power3.inOut',
+        ease: 'power.inOut',
       }
     )
   }
