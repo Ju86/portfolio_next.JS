@@ -3,11 +3,11 @@ import { SwitchTransition, Transition } from 'react-transition-group'
 import gsap from 'gsap'
 import Header from './Header'
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: any) => {
   const router = useRouter()
   
 
-  const onPageEnter = (element) => {
+  const onPageEnter = (element: gsap.TweenTarget) => {
     gsap.fromTo(
       element,
       {
@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
     )
   }
 
-  const onPageExit = (element) => {
+  const onPageExit = (element: gsap.TweenTarget) => {
     gsap.fromTo(
       element,
       {

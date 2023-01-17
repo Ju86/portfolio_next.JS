@@ -63,7 +63,7 @@ const Contact = () => {
                     rows={10}
                     placeholder="Conteúdo da mensagem..."
                     required
-                    onChange={({ target }) => setMensagem(target.value)}
+                    onChange={({ target }) => setMessage(target.value)}
                   ></textarea>
                 </div>
                 <div>
@@ -72,7 +72,7 @@ const Contact = () => {
               </form>
             </div>
             <div className={styles.redes}>
-              <h3>Minhas redes</h3>
+              <h3>Mes Réseaux</h3>
               <ul>
                 <li>
                   <a
